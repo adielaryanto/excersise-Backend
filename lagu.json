@@ -1,0 +1,32 @@
+{
+    "playlist": {
+      "artists": [
+        {
+          "artist": "Rossa",
+          "image": "./src/assets/images/rossa.jpeg",
+          "audio": "./src/assets/audio/rossa-tcinta.mp3",
+          "description": "Terlalu Cinta"
+        }
+      ]
+    },
+    "songs": {
+      "rockNRoll": [
+        {
+          "artist": "This Is Work Music",
+          "image": "./src/assets/images/work1.jpg",
+          "title": "This Is Work Music",
+          "audio": "./src/assets/audio/coffee-jazz.mp3",
+          "description": "This Is Work Music"
+        }
+      ],
+      "pop": [
+        {
+          "artist": "Sleep",
+          "image": "./src/assets/images/sleep1.jpeg",
+          "title": "Sleep",
+          "audio": "./src/assets/audio/sleep-jazz.mp3",
+          "description": "Sleep"
+        }
+      ]
+    }
+  }
