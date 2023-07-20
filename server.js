@@ -12,11 +12,11 @@ app.use((req, res, next) => {
 });
 
 const playlistRoutes = require('./routes/playlistRoutes');
-const songRoutes = require('./routes/songRoutes');
+const genreRoutes = require('./routes/genreRoutes');
 
 app.use('/playlist', playlistRoutes);
-app.use('/songs', songRoutes);
+app.use('/genres', genreRoutes);
 
 app.listen(port, () => {
-  console.log(`Server berjalan di http://localhost:${port}`);
+  console.log(`link localhost di : http://localhost:${port}`);
 });

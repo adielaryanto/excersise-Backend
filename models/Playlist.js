@@ -1,11 +1,11 @@
-// Buatan mas Rifkie
+
 class Playlist {
     constructor(songs) {
       this.songs = Array.isArray(songs) ? songs : [];
     }
   
-    addSong(image, title, artists, url) {
-      const newSong = new Song(image, title, artists, url);
+    addArtist(artist, type, origin) {
+      const newSong = new Song(artist, type, origin);
       this.songs.push(newSong);
     }
   

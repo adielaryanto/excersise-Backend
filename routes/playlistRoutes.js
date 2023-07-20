@@ -13,18 +13,18 @@ router.get('/filter', (req, res) => {
 });
 
 router.get('/', (req, res) => {
-  res.json(yourPlaylist.songs);
+  res.json(yourPlaylist.artist);
 });
 
-router.get('/rest-playlist', (req, res) => {
-  res.json(data.playlist);
+router.get('/allArtists', (req, res) => {
+  res.json(data.playlist.artists);
 });
 
 router.post('/add', (req, res) => {
-  const { image, title, artists, url } = req.body;
-  yourPlaylist.addSong(image, title, artists, url);
+  const { artist, type, origin } = req.body;
+  yourPlaylist.addArtist(artist, type, origin);
   res.json({
-    message: 'Music berhasil ditambahkan ke Your Playlist',
+    message: 'Artist has been added',
     song: yourPlaylist.songs[yourPlaylist.songs.length - 1],
   });
 });
@@ -34,9 +34,9 @@ router.get('/play/:index', (req, res) => {
   if (index >= 0 && index < yourPlaylist.songs.length) {
     const song = yourPlaylist.songs[index];
     song.playCount++;
-    res.json({ message: 'Music Dimainkan', song });
+    res.json({ message: 'Music has been played', song });
   } else {
-    res.status(404).json({ message: 'Music Tidak Ditemukan' });
+    res.status(404).json({ message: 'Music hasnt been input yet' });
   }
 });
 

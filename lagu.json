@@ -2,30 +2,85 @@
     "playlist": {
       "artists": [
         {
-          "artist": "Rossa",
-          "image": "./src/assets/images/rossa.jpeg",
-          "audio": "./src/assets/audio/rossa-tcinta.mp3",
-          "description": "Terlalu Cinta"
+          "artist": "Blackpink",
+          "type": "band",
+          "origin": "Korea"
+        },
+        {
+          "artist": "Westlife",
+          "type": "band",
+          "origin": "Amerika"
+        },
+        {
+          "artist": "Gigi",
+          "type": "band",
+          "origin": "Indonesia"
+        },
+        {
+          "artist": "Tulus",
+          "type": "Solo",
+          "origin": "Indonesia"
+        },
+        {
+          "artist": "Lisa",
+          "type": "Solo",
+          "origin": "Korea"
+        },
+        {
+          "artist": "Bon Jovi",
+          "type": "Solo",
+          "origin": "Amerika"
         }
+        
+
       ]
     },
-    "songs": {
+    "genres": {
       "rockNRoll": [
         {
-          "artist": "This Is Work Music",
-          "image": "./src/assets/images/work1.jpg",
-          "title": "This Is Work Music",
-          "audio": "./src/assets/audio/coffee-jazz.mp3",
-          "description": "This Is Work Music"
-        }
-      ],
-      "pop": [
+          "artist": "Bon Jovi",
+          "title" : "You give love a bad name",
+          "BPM": "80",
+          "description": "Songs that pump up your energy"
+        },
         {
-          "artist": "Sleep",
-          "image": "./src/assets/images/sleep1.jpeg",
-          "title": "Sleep",
-          "audio": "./src/assets/audio/sleep-jazz.mp3",
-          "description": "Sleep"
+          "artist": "Gigi",
+          "title" : "11 Januari",
+          "BPM": "75",
+          "description": "Band from Indonesia some about love"
+        },
+        {
+          "artist": "Kotak",
+          "title" : "Beraksi",
+          "BPM": "89",
+          "description": "Most of the songs use as OST in Indonesia"
+        },
+        {
+          "artist": "Dragonforce",
+          "title" : "Through fire and flames",
+          "BPM": "89",
+          "description": "Band from America known with a guitarist Slash"
+        }
+
+      ],
+      "Kpop": [
+        {
+          "artist": "Blackpink",
+          "title" : "Boombayah",
+          "BPM": "65",
+          "description": "Girlband from korean has already concert in many country"
+        },
+        {
+          "artist": "PSY",
+          "title" : "Gangnam Style",
+          "BPM": "70",
+          "description": "Soloist from Korea known with Gangnam Style Song"
+        },
+        {
+          "artist": "2NE1",
+          "title" : "Cabi Song",
+          "BPM": "83",
+          "description": "Girlband that compete with blackpink on their era"
         }
       ]
     }
